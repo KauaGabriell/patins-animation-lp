@@ -44,4 +44,10 @@
   span {
     font: var(--text-span);
   }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
   
