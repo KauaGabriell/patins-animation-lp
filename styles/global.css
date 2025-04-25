@@ -1,0 +1,47 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* 🎨 Cores */
+    --snitap-sun:        #FFCD1E;
+    --snitap-sky-mid:    #06B6D4;
+    --snitap-sky-light:  #67E8F9;
+    --snitap-joy-mid:    #DB2777;
+    --snitap-joy-light:  #F472B6;
+    --snitap-leaf-mid:   #16A34A;
+  
+    /* 🧱 Cores Base */
+    --color-text:        #000000;
+    --color-highlights:  #000000;
+    --color-background:  #FAFAFA;
+  
+    /* ✍️ Tipografia */
+    --font-heading:    'Syne', sans-serif;
+    --font-body:       'Montserrat', sans-serif;
+  
+    /* 🧩 Tipografia Composta */
+    --text-heading1:    var(--font-heading) 4rem/125% 700;   /* 64px */
+    --text-heading2:    var(--font-heading) 2.5rem/120% 700; /* 40px */
+    --text-button:      var(--font-body)    1rem/150% 500;   /* 16px */
+    --text-span:        var(--font-body)    0.875rem/150% 500; /* 14px */
+  }
+  
+  h1 {
+    font: var(--text-heading1);
+  }
+  
+  h2 {
+    font: var(--text-heading2);
+  }
+  
+  button {
+    font: var(--text-button);
+  }
+  
+  span {
+    font: var(--text-span);
+  }
+  
